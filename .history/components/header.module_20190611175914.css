@@ -1,0 +1,110 @@
+.header {
+    top: 0px;
+    left: 50%;
+    margin-left: -735px;
+    position: fixed;
+    width: 92rem;
+    z-index: 1;
+}
+.nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header_corner,.nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header_child {
+    padding: 10px;
+    width: 100%;
+}
+
+.nav ul li{
+    padding: 10px;
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    display: flex;
+    z-index: 2;
+}
+
+.header_child button, .nav ul li button{
+    padding: 3px;
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: black; 
+}
+.header_child input[type="text"] {
+    border: none;
+    outline: none;
+    width: 70px;
+    transition:all 0.3s linear;
+    padding:5px;
+    border-radius: 10px;
+}
+.header_child input[type="text"]:focus {
+    width:200px;
+}
+.cart_counter{
+    padding: 2px 5px;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+.social_media ul{
+    display: flex;
+    list-style: none;
+}
+
+.social_media ul li{
+    padding: 8px;
+    position: relative;
+    z-index: 1;
+}
+
+.social_media ul li i{
+    color: white;
+}
+
+.contact{
+    cursor: pointer;
+
+}
+.info ul li::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0px;
+    background: #EF4A2B;
+    transform: skewX(-30deg);
+    z-index: -1;
+    opacity: 0;
+}
+
+.info ul li:hover::before{
+    opacity: 1;
+}
+
+.contact:hover{
+    color: #EF4A2B;
+}
+
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+}

@@ -1,0 +1,7 @@
+.login_module{
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    align-items: center;
+}

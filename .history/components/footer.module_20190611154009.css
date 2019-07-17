@@ -1,0 +1,11 @@
+.footer_view{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+.footer{
+    color: #fff;
+}
+.footer_left{
+    text-align: center;
+}

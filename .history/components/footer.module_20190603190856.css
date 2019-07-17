@@ -1,0 +1,11 @@
+.footer_view{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.footer{
+    position: absolute;
+}
+.footer_left{
+    text-align: center;
+}

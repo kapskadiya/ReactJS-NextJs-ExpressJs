@@ -1,0 +1,31 @@
+.popup{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 10px;
+    margin: 0 10px 10px;  
+}
+
+.popup_heading{
+    margin: 0 10px 10px 10px;
+    font-size: 1.5em;
+    font-weight: BOLD;
+}
+
+.popup_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.popup_content ul{
+    list-style: none;
+}
+
+.popup_content ul li{
+    padding: 5px;
+    text-align: justify;
+}
+
+.popup_contect a{
+    text-decoration: none;
+    margin-right: 5px;
+}

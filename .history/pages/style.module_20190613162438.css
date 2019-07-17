@@ -1,0 +1,148 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.card_display{
+    display: block;
+    color: #fff;
+    height: 100vh;
+}
+
+.card_container{
+    height: 100rem;
+}
+.card_display h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+.card h3, .cart_card h3{
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.cart_card{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: #fff;
+    height: 100vh;
+}
+
+
+.card li, .cart_card li{
+    position: relative;
+    margin: 20px;
+    /* transform: scale(1); */
+    transition: all 0.3s ease-in-out;
+    width: 215px;
+}
+
+.card li img{
+    min-width: 100%;
+}
+.card li::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border-image-slice: 1;
+    transition: all 0.5s ease-in-out;
+}
+.card li:hover::before{
+    width: 100%;
+}
+.remove_cart{
+    text-align: right;
+}
+.remove_cart button{
+    padding: 3px;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 3px;
+
+}
+
+/* .card li:hover{
+    transform: scale(0.9);
+} */
+
+.show{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 100vh;
+    transition: all 0.7s linear;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px 0 20px;
+}
+
+.summary{
+    text-align: justify;
+}
+.content ul{
+    list-style: none;
+}
+
+.content ul li{
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.content h1, .content div, .content ul{
+    margin-bottom: 10px;
+}
+
+.content button{
+    padding: 5px;
+    border-radius: 2px;
+    outline: none;
+}
+
+.pagination ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pagination ul li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid wheat;
+    padding: 7px 10px;
+    transition: all 0.5s linear;
+}
+
+.active{
+    background: palegreen;
+}
+
+.about{
+    height: 100vh;
+}
+
+.rating{
+    z-index: 0;
+}

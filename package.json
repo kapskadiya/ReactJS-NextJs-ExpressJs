@@ -1,0 +1,36 @@
+{
+  "name": "create-next-example-app",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@appbaseio/reactivesearch": "^3.0.0-rc.14",
+    "@zeit/next-css": "^1.0.1",
+    "babel-plugin-tinytime": "^0.1.2",
+    "bootstrap": "^4.3.1",
+    "bootstrap-less": "^3.3.8",
+    "express": "^4.17.0",
+    "html-react-parser": "^0.7.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "8.1.0",
+    "react": "16.8.6",
+    "react-addons-text-content": "0.0.4",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "16.8.6",
+    "react-image-magnify": "^2.7.4",
+    "react-image-zoom": "^0.7.0",
+    "react-js-pagination": "^3.0.2",
+    "react-magic-zoom": "^1.3.1",
+    "react-rater": "^5.1.0",
+    "react-reveal": "^1.2.2",
+    "react-simple-image-zoom": "^0.1.5",
+    "react-star-rating-component": "^1.4.1",
+    "react-star-ratings": "^2.3.0",
+    "react-star-review": "^1.2.0",
+    "react-stars": "^2.2.5",
+    "react-toastify": "^5.1.1",
+    "rex-rating": "^1.2.0"
+  }
+}

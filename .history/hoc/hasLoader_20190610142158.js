@@ -1,0 +1,4 @@
+
+const hasLoader = WrappedComponent => {
+    
+}

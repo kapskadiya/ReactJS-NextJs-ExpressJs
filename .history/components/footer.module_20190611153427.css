@@ -1,0 +1,15 @@
+.footer_view{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer{
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footer_left{
+    text-align: center;
+}

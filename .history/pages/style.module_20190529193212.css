@@ -1,0 +1,39 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.card_display{
+    display: block;
+}
+
+.card_display h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.card li{
+    margin: 20px;
+    transform: scale(1);
+    transition: all 0.3s linear;
+}
+
+.card li:hover{
+    transform: scale(1.1);
+}
+
+.card li img{
+    box-shadow: 0 0 10px gray;
+}
+
+.show{
+    display: flex;
+    justify-content: space-between;
+}

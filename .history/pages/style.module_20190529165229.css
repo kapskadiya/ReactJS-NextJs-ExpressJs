@@ -1,0 +1,23 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.card_display{
+    display: block;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.card li{
+    margin: 10px;
+    transform: scale(0)
+}
+
+.card li:hover{
+    transform: scale(1);
+}

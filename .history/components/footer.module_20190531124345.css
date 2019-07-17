@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footer_left{
+    text-align: center;
+}

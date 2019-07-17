@@ -1,0 +1,37 @@
+.popup{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 10px;  
+    color: black !important;
+    background: blue;
+}
+
+.popup_heading{
+    margin: 0 10px 10px 10px;
+    font-size: 1.5em;
+    font-weight: BOLD;
+}
+
+.popup_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.popup_content ul{
+    list-style: none;
+}
+
+.popup_content ul li{
+    padding: 5px;
+    text-align: justify;
+}
+
+.popup_contact a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+
+.popup_content ul li input[type="text"]{
+    margin-top: 10px;
+}

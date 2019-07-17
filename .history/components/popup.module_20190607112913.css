@@ -1,0 +1,8 @@
+.popup{
+    display: block;
+    background: black;
+}
+
+.popup_heading{
+    margin: 5px;
+}

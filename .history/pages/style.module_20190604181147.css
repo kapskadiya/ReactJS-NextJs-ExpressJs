@@ -1,0 +1,124 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.card_display{
+    display: block;
+    color: #fff;
+}
+
+.card_display h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.card h3, .cart_card h3{
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.cart_card{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: #fff;
+}
+
+
+.card li, .cart_card li{
+    margin: 20px;
+    transform: scale(1);
+    transition: all 0.3s linear;
+    overflow: hidden;
+    width: 215px;
+}
+
+.remove_cart{
+    text-align: right;
+}
+.remove_cart button{
+    padding: 3px;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 3px;
+
+}
+
+.card li:hover{
+    transform: scale(1.1);
+}
+
+.card li img{
+    box-shadow: 0 0 10px gray;
+}
+
+.show{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 100vh;
+}
+
+.show img{
+    margin: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content ul{
+    list-style: none;
+ 
+}
+
+.content ul li{
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.content h1, .content div, .content ul{
+    margin-bottom: 10px;
+}
+
+.content button{
+    padding: 5px;
+    border-radius: 2px;
+    outline: none;
+}
+
+.pagination ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.pagination ul li{
+    border: 1px solid wheat;
+    padding: 7px 10px;
+    
+}
+
+.pagination ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.pagination ul li:visited{
+    background: palegreen;
+}

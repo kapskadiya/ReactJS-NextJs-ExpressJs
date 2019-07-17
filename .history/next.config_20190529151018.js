@@ -1,0 +1,1 @@
+"prod_start": "NODE_ENV=production node server.js"

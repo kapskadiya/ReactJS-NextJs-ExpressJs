@@ -1,0 +1,12 @@
+.footer_view{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+}
+.footer{
+    color: #fff;
+}
+.footer_left{
+    text-align: center;
+}
