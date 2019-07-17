@@ -6,6 +6,7 @@ import {Context} from './components/Context'
 export default class Home extends Component {
     static contextType = Context;
     render() {
+        
         const {style} = this.context.theme;
         return ( 
         <> 

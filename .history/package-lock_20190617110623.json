@@ -134,7 +134,7 @@
       "requires": {
         "@babel/helper-function-name": "^7.1.0",
         "@babel/types": "^7.4.4",
-        "lodash": "^4.17.13"
+        "lodash": "^4.17.11"
       }
     },
     "@babel/helper-explode-assignable-expression": {
